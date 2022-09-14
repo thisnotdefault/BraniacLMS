@@ -36,9 +36,6 @@ AUTHENTICATION_BACKENDS = (
 SOCIAL_AUTH_GITHUB_KEY = env("SOCIAL_AUTH_GITHUB_KEY")
 SOCIAL_AUTH_GITHUB_SECRET = env("SOCIAL_AUTH_GITHUB_SECRET")
 
-# SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-
 ALLOWED_HOSTS = ["*"]
 
 
@@ -55,6 +52,7 @@ INSTALLED_APPS = [
     "social_django",
     "mainapp",
     "authapp",
+    "crispy_forms",
 ]
 
 MIDDLEWARE = [
@@ -165,3 +163,5 @@ LOGOUT_REDIRECT_URL = "mainapp:main_page"
 
 # Main storage message in session
 MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"

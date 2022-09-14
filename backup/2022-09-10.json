@@ -1,0 +1,1991 @@
+[
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add courses",
+            "content_type": 7,
+            "codename": "add_courses"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change courses",
+            "content_type": 7,
+            "codename": "change_courses"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete courses",
+            "content_type": 7,
+            "codename": "delete_courses"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view courses",
+            "content_type": 7,
+            "codename": "view_courses"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add news",
+            "content_type": 8,
+            "codename": "add_news"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change news",
+            "content_type": 8,
+            "codename": "change_news"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete news",
+            "content_type": 8,
+            "codename": "delete_news"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view news",
+            "content_type": 8,
+            "codename": "view_news"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add lesson",
+            "content_type": 9,
+            "codename": "add_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change lesson",
+            "content_type": 9,
+            "codename": "change_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete lesson",
+            "content_type": 9,
+            "codename": "delete_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view lesson",
+            "content_type": 9,
+            "codename": "view_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add course teachers",
+            "content_type": 10,
+            "codename": "add_courseteachers"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change course teachers",
+            "content_type": 10,
+            "codename": "change_courseteachers"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete course teachers",
+            "content_type": 10,
+            "codename": "delete_courseteachers"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view course teachers",
+            "content_type": 10,
+            "codename": "view_courseteachers"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 11,
+            "codename": "add_customuser"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 11,
+            "codename": "change_customuser"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 11,
+            "codename": "delete_customuser"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 11,
+            "codename": "view_customuser"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add association",
+            "content_type": 12,
+            "codename": "add_association"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change association",
+            "content_type": 12,
+            "codename": "change_association"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete association",
+            "content_type": 12,
+            "codename": "delete_association"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view association",
+            "content_type": 12,
+            "codename": "view_association"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add code",
+            "content_type": 13,
+            "codename": "add_code"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change code",
+            "content_type": 13,
+            "codename": "change_code"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete code",
+            "content_type": 13,
+            "codename": "delete_code"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view code",
+            "content_type": 13,
+            "codename": "view_code"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add nonce",
+            "content_type": 14,
+            "codename": "add_nonce"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change nonce",
+            "content_type": 14,
+            "codename": "change_nonce"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete nonce",
+            "content_type": 14,
+            "codename": "delete_nonce"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view nonce",
+            "content_type": 14,
+            "codename": "view_nonce"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add user social auth",
+            "content_type": 15,
+            "codename": "add_usersocialauth"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change user social auth",
+            "content_type": 15,
+            "codename": "change_usersocialauth"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete user social auth",
+            "content_type": 15,
+            "codename": "delete_usersocialauth"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view user social auth",
+            "content_type": 15,
+            "codename": "view_usersocialauth"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add partial",
+            "content_type": 16,
+            "codename": "add_partial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change partial",
+            "content_type": 16,
+            "codename": "change_partial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete partial",
+            "content_type": 16,
+            "codename": "delete_partial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view partial",
+            "content_type": 16,
+            "codename": "view_partial"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "mainapp",
+            "model": "courses"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "mainapp",
+            "model": "news"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "mainapp",
+            "model": "lesson"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "mainapp",
+            "model": "courseteachers"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "authapp",
+            "model": "customuser"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "social_django",
+            "model": "association"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "social_django",
+            "model": "code"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "social_django",
+            "model": "nonce"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "social_django",
+            "model": "usersocialauth"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "social_django",
+            "model": "partial"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "pp9wtdr5vai08xbpr4qufxmsut9p5s6a",
+        "fields": {
+            "session_data": "e30:1oWl6I:1SuWUEW24jTMX75HEcHucNxM3zQN4TSMsmL-cZFH9uM",
+            "expire_date": "2022-09-23T20:59:46.095Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "tbj6y7rp1lxcsrqmrbkqgti4nqcylbfl",
+        "fields": {
+            "session_data": "eyJnaXRodWJfc3RhdGUiOiI4eGdDVVF0b29ITU1TdzVkYU1UOGZyNGJSNWdCRWlwQyJ9:1oWIJf:Pv-PLDbcyfDIq1WGux6eoRBJP-lI_PxL0yxuFO92-6w",
+            "expire_date": "2022-09-22T14:15:39.542Z"
+        }
+    },
+    {
+        "model": "social_django.usersocialauth",
+        "pk": 1,
+        "fields": {
+            "user": 3,
+            "provider": "github",
+            "uid": "79474085",
+            "extra_data": "{\"auth_time\": 1662650475, \"id\": 79474085, \"expires\": null, \"login\": \"thisnotdefault\", \"access_token\": \"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\", \"token_type\": \"bearer\"}",
+            "created": "2022-09-08T15:21:15.020Z",
+            "modified": "2022-09-08T15:21:15.108Z"
+        }
+    },
+    {
+        "model": "mainapp.news",
+        "pk": 1,
+        "fields": {
+            "title": "Запуск нового курса по Python",
+            "preambule": "Мы рады вам сообщить о запуске нового курса по Python для начинающих!",
+            "body": "Python предназначен для разработки и изучения новых приложений. Мы предлагаем непросто изучить новый язык программирования, но и научиться применять его на практике. Этот курс полезен не только тем, кто хочет научиться программировать, но и тем, кому не хватает времени на выполнение практических заданий. Ещё это полезно тем, у кого нет возможности посещать курсы. Курс состоит из 7 встреч — одно занятие в неделю длительностью 3 часа.\r\nВстречи проводятся по воскресеньям с 14:00.",
+            "body_as_markdown": false,
+            "created": "2021-07-07T18:32:47.331Z",
+            "updated": "2021-07-07T18:32:47.331Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.news",
+        "pk": 2,
+        "fields": {
+            "title": "Урок по PHP в среду не состоится",
+            "preambule": "Всем, кто не успел купить курс в понедельник, настоятельно рекомендую это сделать по ссылке в конце публикации.",
+            "body": "Сегодня в Саратове не будет проходить открытый урок по PHP, который должен был состояться в среду на факультете компьютерных наук СГУ. Преподавательница, за которой закреплена аудитория, сказала, что заболела и не придёт. На следующий урок, запланированный на 28 февраля, перенесли всё, кроме курса «Веб-программирование». Об этом сообщили в группе факультета в социальной сети «ВКонтакте». Курс «Веб-программист» состоит из двух частей. Первая — общий курс, проходящий в течение 72 часов.",
+            "body_as_markdown": false,
+            "created": "2021-07-06T18:32:47.331Z",
+            "updated": "2021-07-06T18:32:47.331Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.news",
+        "pk": 3,
+        "fields": {
+            "title": "Всем руководителям подразделений подключится к Zoom",
+            "preambule": "Все сотрудники подключены к Zoom, поэтому мы видим, что они делают и говорят.",
+            "body": "Каждый из 5 руководителей будет в одном из своих офисов и использовать это приложение. Мы хотим, чтобы они могли видеть всё, что происходит на сайте, и просматривать предоставляемые отчёты. После того как сотрудники подключат ZOOM, важно, чтобы каждый секретарь, менеджер и прочие подключились ко всем 5 компьютерам.",
+            "body_as_markdown": false,
+            "created": "2021-07-05T18:32:47.331Z",
+            "updated": "2021-07-05T18:32:47.331Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.news",
+        "pk": 4,
+        "fields": {
+            "title": "Сегодня студенты всего мира отмечают праздник",
+            "preambule": "Подробности — внутри...",
+            "body": "Сегодня студенты всего мира отмечают праздник, который официально признаётся международным, но более распространён в таких странах, как Китай или Япония. Он называется Фестиваль студенческого пирога (Holly Fest) и празднуется каждый год в начале сентября. Этот праздник объединяет студентов во всём мире. Студенты отмечают начало нового учебного года и дарят друг другу подарки. Во многих азиатских странах этот день также знаменует начало нового года по китайскому календарю. День рождения — 9 июля, 23 года",
+            "body_as_markdown": false,
+            "created": "2021-07-04T18:32:47.331Z",
+            "updated": "2021-07-04T18:32:47.331Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.news",
+        "pk": 5,
+        "fields": {
+            "title": "Встречайте нового преподавателя направления DevOps",
+            "preambule": "Дмитрий Шишмарёв работает в IT-бизнесе с 2001 года.",
+            "body": "До прихода в компанию «1С-Битрикс» начинал карьеру в качестве системного администратора. В 2009 перешёл на должность DevOps-инженера, где и трудится по сей день, развиваясь в своей сфере. Дмитрий — сертифицированный специалист компании Bitrix. На его счету более 30 успешно реализованных проектов, среди которых разработка корпоративной системы управления веб-проектами на базе 1C-Bitrix",
+            "body_as_markdown": false,
+            "created": "2021-07-03T18:32:47.331Z",
+            "updated": "2021-07-03T18:32:47.331Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.news",
+        "pk": 6,
+        "fields": {
+            "title": "JavaScript снова возглавил рейтинг самых отвратительных языков",
+            "preambule": "И опять, и снова.",
+            "body": "Рейтинг самых отвратительных языков программирования, составленный британским изданием, возглавляет JavaScript. В опросе приняли участие более 1000 специалистов по разработке ПО, работающих в различных компаниях. При составлении списка учитывались такие свойства языка, как сложность и простота обучения, а также производительность. Специалисты оценивали язык по 10-балльной шкале, где один балл означал «ужасающий», а 10 баллов — «отвратительный».",
+            "body_as_markdown": false,
+            "created": "2021-07-02T18:32:47.331Z",
+            "updated": "2021-07-02T18:32:47.331Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.news",
+        "pk": 7,
+        "fields": {
+            "title": "JavaScript снова возглавил рейтинг самых отвратительных     языков",
+            "preambule": "И опять, и снова.",
+            "body": "Рейтинг самых отвратительных языков программирования,     составленный британским изданием, возглавляет JavaScript. В опросе     приняли участие более 1000 специалистов по разработке ПО,     работающих в различных компаниях. При составлении списка     учитывались такие свойства языка, как сложность и простота     обучения, а также производительность. Специалисты оценивали язык     по 10-балльной шкале, где один балл означал «ужасающий», а 10     баллов — «отвратительный».",
+            "body_as_markdown": false,
+            "created": "2022-09-04T17:21:07.393Z",
+            "updated": "2022-09-04T17:21:07.393Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.courses",
+        "pk": 1,
+        "fields": {
+            "name": "Web Python",
+            "description": "Курс Web Python позволит вам освоить язык программирования Python, а также разобраться с его основными аспектами: модулями, парсерами и регулярными выражениями. Курс направлен на то, чтобы вы научились составлять эффективные программы для решения своих задач. Он научит вас создавать собственные веб-приложения для работы с базами данных и сайтами. Вы сможете использовать Python для изучения Java, Ruby, PHP, C, C ++, C # или любого другого языка программирования.\r\nНа курсе Web Python проходит изучение веб-фреймворков Django, Bootstrap и Flask.\r\nВо втором семестре вы изучите такие инструменты и методы, как:\r\n\r\n* PHP и MySql;\r\n* Работа с файлами DOC, EXCEL, PATH;\r\n* Реляционная и объектная модель базы данных;\r\n* Создание и управление пакетами;\r\n* Как работать с FTP-сервером;\r\n* Настройка среды и создание сайтов;\r\n* Веб-серверы;\r\n* Конфигурационное управление в Unix и Windows;\r\n* Инструменты для создания сайта;\r\n* Интеграция внешних приложений;\r\n* Расширения;",
+            "description_as_markdown": true,
+            "cost": "10000.50",
+            "cover": "img/course001.jpg",
+            "created": "2021-07-11T08:24:53.084Z",
+            "updated": "2021-07-11T09:06:35.322Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.courses",
+        "pk": 2,
+        "fields": {
+            "name": "Web Golang",
+            "description": "На курсе Web Golang вы изучите основы Go, получите практические навыки реализации проектов на Golang и научитесь работать в распределённых средах разработки. Вы узнаете, что такое Go, как компилировать код Go и писать тесты. Выясните, как работает веб-сервер. Курс ведёт Виктор Иванов\r\nСертифицированный специалист Google Developer Expert (Certified Technical Professional).\r\nАвтор учебника «Веб-разработка на Go». На курсе вы изучите основы языка программирования Go и получите практический опыт реализации проектов на Go.",
+            "description_as_markdown": false,
+            "cost": "9009.99",
+            "cover": "img/course002.jpg",
+            "created": "2021-07-11T08:28:07.397Z",
+            "updated": "2021-07-11T09:06:40.127Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.courses",
+        "pk": 3,
+        "fields": {
+            "name": "Web JavaScript",
+            "description": "Курс JavaScript ведёт преподаватель Дмитрий Кокшаров. Он преподаёт в разных вузах, в том числе в МФТИ. Дмитрий считает, что курс — это база знаний, которая пригодится в жизни. \r\nКурс JavaScript состоит из модулей, один из которых — «Основы функционального программирования». Этот модуль рассчитан на тех, кто не знает основы JavaScript или только начал заниматься этим языком. Вы узнаете, как устроены функции, какие бывают типы данных, как применять модификаторы.\r\nВ программе JavaScript:\r\n\r\n* Основные паттерны проектирования (design patterns) \r\n* Разработка на чистом JavaScript\r\n* ReactJS и AngularJS\r\n* ООП на JavaScript \r\n* Основы HTML 5 и CSS3\r\n* Javascript ES6 и ES7\r\n* Кроссбраузерные основы\r\n\r\nПогрузитесь в динамичный мир современной JS-разработки. Курс JavaScript полезен как новичкам, так и опытным разработчикам, желающим изучить новые технологии и получить новые знания.",
+            "description_as_markdown": true,
+            "cost": "2500.15",
+            "cover": "img/course003.jpg",
+            "created": "2021-07-11T08:31:20.301Z",
+            "updated": "2021-07-11T09:06:46.902Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.courses",
+        "pk": 4,
+        "fields": {
+            "name": "Web Java",
+            "description": "На курсе Java Вы изучите язык и фреймворк Java с самых азов до продвинутого уровня.\r\nА главное — получите теоретические и практические навыки для создания, отладки и тестирования своих программ. В итоге вы сможете выполнить проекты любой степени сложности, используя различные среды разработки и инструменты: от Eclipse IDE до IntelliJ IDEA, не говоря уже о современных облачных решениях от Google и GitHub.\r\nКурс Java ведёт сильный преподаватель Дмитрий. Дмитрий — живой пример профессионального, увлечённого и целеустремлённого преподавателя. С первых занятий, уже на первом уроке вы поймёте, что преподаватель заинтересован в том, чтобы его ученики непросто получили теоретические знания, а приобрели практические навыки.",
+            "description_as_markdown": false,
+            "cost": "10000.00",
+            "cover": "img/course004.jpg",
+            "created": "2021-07-11T08:34:10.771Z",
+            "updated": "2021-07-11T09:06:52.015Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.courses",
+        "pk": 5,
+        "fields": {
+            "name": "Web PHP",
+            "description": "На курсе PHP вы изучите основы PHP и получите навыки работы с ним: работа с базами данных, графикой, созданием сайтов, работа в PHPEdit, обработка исключений, управление памятью, работа со строками и с файлами. Курс PHP позволяет получить навыки программирования на этом языке. После прохождения курса вы сможете создавать собственные веб-сайты с системой управления, а также применять свои знания для создания полноценных информационных систем.\r\nКурс PHP ведёт разработчик из Сбербанка, который умеет делать сложные вещи из простых. Он расскажет, как сделать сайт, не имея ничего, кроме базовых знаний, и поделится важными секретами. У меня было достаточно времени, чтобы посмотреть на PHP с нуля и понять, что он крутой. Как-то раз меня спросили, почему я не пишу код сам, а только консультирую других. Я ответил: „Потому что мне нравится помогать людям“. Но для этого надо уметь всё.\r\nPHP — это сложная штука.»",
+            "description_as_markdown": false,
+            "cost": "9500.78",
+            "cover": "img/course005.jpg",
+            "created": "2021-07-11T08:36:21.087Z",
+            "updated": "2021-07-11T09:06:57.580Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.courses",
+        "pk": 6,
+        "fields": {
+            "name": "Python AI",
+            "description": "На курсе Python AI вы изучите создание простых нейросетей для задач машинного зрения.\r\nНаучитесь создавать и развивать более сложные нейросети.\r\nКурс рассчитан:\r\n\r\n* Для тех, кому интересен мир машинного обучения, создания ИИ и робототехники.\r\n* Для специалистов в области физики, математики, программирования на Python.\r\n* Для всех, кто хочет прокачать свои навыки в Python, а также понять алгоритм работы нейронных сетей и научиться применять их на практике.\r\n\r\nКурс Python AI ведёт преподаватель школы \"Фабрика Открытий\" Денис Мигачёв.\r\nОн изучает математику и IT, много программирует и делает игры. Денис расскажет вам про инструменты, которые пригодятся для создания ИИ, и даст практические задания — написать свою игру на Python.",
+            "description_as_markdown": true,
+            "cost": "6660.66",
+            "cover": "img/course006.jpg",
+            "created": "2021-07-11T08:39:15.369Z",
+            "updated": "2021-07-11T09:07:04.253Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.courses",
+        "pk": 7,
+        "fields": {
+            "name": "DevOps",
+            "description": "На курсе DevOps вы изучите основы автоматизации с Python, Git, Docker и узнаете про GitHub, Jenkins и Kubernetes. Поймёте, как всё работает и зачем это нужно.\r\nКурс состоит из 12 онлайн-семинаров, длительностью 90 минут. Он подходит опытным программистам, которые хотят усовершенствовать свои навыки в области управления проектами.\r\nНа курсе ыы изучите:\r\n\r\n* Основные возможности и функции Git\r\n* Как создавать, добавлять и удалять ветки, коммиты и теги\r\n* Как назвать и использовать ветку",
+            "description_as_markdown": true,
+            "cost": "7770.77",
+            "cover": "img/course007.jpg",
+            "created": "2021-07-11T08:40:33.347Z",
+            "updated": "2021-07-11T09:07:11.184Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.courses",
+        "pk": 8,
+        "fields": {
+            "name": "3D-моделирование",
+            "description": "Курс 3D-моделирования ведёт практикующий архитектор с высшим архитектурным образованием, со стажем преподавания более 7 лет.\r\nНа курсе 3D-моделирования вы изучите программы:\r\n\r\n* 3D-Max\r\n* Blender\r\n* Rhino\r\n* Maya\r\n* AutoCAD (V-Ray)\r\n\r\nНаучитесь:\r\n\r\n1. Создавать модели для разработки приложений.\r\n2. Создавать дизайн мебели.\r\n3. Создавать реалистичные текстуры и освещение.\r\n4. Создавать анимации.\r\n5. Настраивать рабочий процесс в программах.\r\n6. Работать с 3D Studio Max, Blender, Rhinoceros.\r\n7. Использовать инструменты программы AutoCAD.\r\n8. Создавать собственные проекты или адаптировать модели 3D-программ под свои нужды.",
+            "description_as_markdown": true,
+            "cost": "5900.00",
+            "cover": "img/no_image.svg",
+            "created": "2021-07-11T08:58:28.830Z",
+            "updated": "2021-07-11T09:07:16.651Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 11,
+        "fields": {
+            "course": 1,
+            "num": 1,
+            "title": "Lesson 1",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 12,
+        "fields": {
+            "course": 1,
+            "num": 2,
+            "title": "Lesson 2",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 13,
+        "fields": {
+            "course": 1,
+            "num": 3,
+            "title": "Lesson 3",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 14,
+        "fields": {
+            "course": 1,
+            "num": 4,
+            "title": "Lesson 4",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 15,
+        "fields": {
+            "course": 1,
+            "num": 5,
+            "title": "Lesson 5",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 16,
+        "fields": {
+            "course": 1,
+            "num": 6,
+            "title": "Lesson 6",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 17,
+        "fields": {
+            "course": 1,
+            "num": 7,
+            "title": "Lesson 7",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 18,
+        "fields": {
+            "course": 1,
+            "num": 8,
+            "title": "Lesson 8",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 21,
+        "fields": {
+            "course": 2,
+            "num": 1,
+            "title": "Lesson 1",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 22,
+        "fields": {
+            "course": 2,
+            "num": 2,
+            "title": "Lesson 2",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 23,
+        "fields": {
+            "course": 2,
+            "num": 3,
+            "title": "Lesson 3",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 24,
+        "fields": {
+            "course": 2,
+            "num": 4,
+            "title": "Lesson 4",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 25,
+        "fields": {
+            "course": 2,
+            "num": 5,
+            "title": "Lesson 5",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 26,
+        "fields": {
+            "course": 2,
+            "num": 6,
+            "title": "Lesson 6",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 27,
+        "fields": {
+            "course": 2,
+            "num": 7,
+            "title": "Lesson 7",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 28,
+        "fields": {
+            "course": 2,
+            "num": 8,
+            "title": "Lesson 8",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 31,
+        "fields": {
+            "course": 3,
+            "num": 1,
+            "title": "Lesson 1",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 32,
+        "fields": {
+            "course": 3,
+            "num": 2,
+            "title": "Lesson 2",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 33,
+        "fields": {
+            "course": 3,
+            "num": 3,
+            "title": "Lesson 3",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 34,
+        "fields": {
+            "course": 3,
+            "num": 4,
+            "title": "Lesson 4",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 35,
+        "fields": {
+            "course": 3,
+            "num": 5,
+            "title": "Lesson 5",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 36,
+        "fields": {
+            "course": 3,
+            "num": 6,
+            "title": "Lesson 6",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 37,
+        "fields": {
+            "course": 3,
+            "num": 7,
+            "title": "Lesson 7",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 38,
+        "fields": {
+            "course": 3,
+            "num": 8,
+            "title": "Lesson 8",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 41,
+        "fields": {
+            "course": 4,
+            "num": 1,
+            "title": "Lesson 1",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 42,
+        "fields": {
+            "course": 4,
+            "num": 2,
+            "title": "Lesson 2",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 43,
+        "fields": {
+            "course": 4,
+            "num": 3,
+            "title": "Lesson 3",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 44,
+        "fields": {
+            "course": 4,
+            "num": 4,
+            "title": "Lesson 4",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 45,
+        "fields": {
+            "course": 4,
+            "num": 5,
+            "title": "Lesson 5",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 46,
+        "fields": {
+            "course": 4,
+            "num": 6,
+            "title": "Lesson 6",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 47,
+        "fields": {
+            "course": 4,
+            "num": 7,
+            "title": "Lesson 7",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 48,
+        "fields": {
+            "course": 4,
+            "num": 8,
+            "title": "Lesson 8",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 51,
+        "fields": {
+            "course": 5,
+            "num": 1,
+            "title": "Lesson 1",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 52,
+        "fields": {
+            "course": 5,
+            "num": 2,
+            "title": "Lesson 2",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 53,
+        "fields": {
+            "course": 5,
+            "num": 3,
+            "title": "Lesson 3",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 54,
+        "fields": {
+            "course": 5,
+            "num": 4,
+            "title": "Lesson 4",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 55,
+        "fields": {
+            "course": 5,
+            "num": 5,
+            "title": "Lesson 5",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 56,
+        "fields": {
+            "course": 5,
+            "num": 6,
+            "title": "Lesson 6",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 57,
+        "fields": {
+            "course": 5,
+            "num": 7,
+            "title": "Lesson 7",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 58,
+        "fields": {
+            "course": 5,
+            "num": 8,
+            "title": "Lesson 8",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 61,
+        "fields": {
+            "course": 6,
+            "num": 1,
+            "title": "Lesson 1",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 62,
+        "fields": {
+            "course": 6,
+            "num": 2,
+            "title": "Lesson 2",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 63,
+        "fields": {
+            "course": 6,
+            "num": 3,
+            "title": "Lesson 3",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 64,
+        "fields": {
+            "course": 6,
+            "num": 4,
+            "title": "Lesson 4",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 65,
+        "fields": {
+            "course": 6,
+            "num": 5,
+            "title": "Lesson 5",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 66,
+        "fields": {
+            "course": 6,
+            "num": 6,
+            "title": "Lesson 6",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 67,
+        "fields": {
+            "course": 6,
+            "num": 7,
+            "title": "Lesson 7",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 68,
+        "fields": {
+            "course": 6,
+            "num": 8,
+            "title": "Lesson 8",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 71,
+        "fields": {
+            "course": 7,
+            "num": 1,
+            "title": "Lesson 1",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 72,
+        "fields": {
+            "course": 7,
+            "num": 2,
+            "title": "Lesson 2",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 73,
+        "fields": {
+            "course": 7,
+            "num": 3,
+            "title": "Lesson 3",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 74,
+        "fields": {
+            "course": 7,
+            "num": 4,
+            "title": "Lesson 4",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 75,
+        "fields": {
+            "course": 7,
+            "num": 5,
+            "title": "Lesson 5",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 76,
+        "fields": {
+            "course": 7,
+            "num": 6,
+            "title": "Lesson 6",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 77,
+        "fields": {
+            "course": 7,
+            "num": 7,
+            "title": "Lesson 7",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 78,
+        "fields": {
+            "course": 7,
+            "num": 8,
+            "title": "Lesson 8",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 81,
+        "fields": {
+            "course": 8,
+            "num": 1,
+            "title": "Lesson 1",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 82,
+        "fields": {
+            "course": 8,
+            "num": 2,
+            "title": "Lesson 2",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 83,
+        "fields": {
+            "course": 8,
+            "num": 3,
+            "title": "Lesson 3",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 84,
+        "fields": {
+            "course": 8,
+            "num": 4,
+            "title": "Lesson 4",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 85,
+        "fields": {
+            "course": 8,
+            "num": 5,
+            "title": "Lesson 5",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 86,
+        "fields": {
+            "course": 8,
+            "num": 6,
+            "title": "Lesson 6",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 87,
+        "fields": {
+            "course": 8,
+            "num": 7,
+            "title": "Lesson 7",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.lesson",
+        "pk": 88,
+        "fields": {
+            "course": 8,
+            "num": 8,
+            "title": "Lesson 8",
+            "description": "Описание урока",
+            "description_as_markdown": false,
+            "created": "2021-07-11T12:53:26.832Z",
+            "updated": "2021-07-11T12:53:26.833Z",
+            "deleted": false
+        }
+    },
+    {
+        "model": "mainapp.courseteachers",
+        "pk": 1,
+        "fields": {
+            "name_first": "Альфред",
+            "name_second": "Нуцубидзе",
+            "day_birth": "1990-07-10",
+            "deleted": false,
+            "course": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "model": "mainapp.courseteachers",
+        "pk": 2,
+        "fields": {
+            "name_first": "Роман",
+            "name_second": "Доржинов",
+            "day_birth": "1988-02-04",
+            "deleted": false,
+            "course": [
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "model": "mainapp.courseteachers",
+        "pk": 3,
+        "fields": {
+            "name_first": "Ярослав",
+            "name_second": "Конягин",
+            "day_birth": "1981-12-08",
+            "deleted": false,
+            "course": [
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "mainapp.courseteachers",
+        "pk": 4,
+        "fields": {
+            "name_first": "Автандил",
+            "name_second": "Наварский",
+            "day_birth": "1983-05-16",
+            "deleted": false,
+            "course": [
+                4,
+                6
+            ]
+        }
+    },
+    {
+        "model": "mainapp.courseteachers",
+        "pk": 5,
+        "fields": {
+            "name_first": "Роза",
+            "name_second": "Уланова",
+            "day_birth": "1986-05-09",
+            "deleted": false,
+            "course": [
+                5,
+                7
+            ]
+        }
+    },
+    {
+        "model": "mainapp.courseteachers",
+        "pk": 6,
+        "fields": {
+            "name_first": "Бронислава",
+            "name_second": "Алиева",
+            "day_birth": "1971-01-07",
+            "deleted": false,
+            "course": [
+                6,
+                8
+            ]
+        }
+    },
+    {
+        "model": "mainapp.courseteachers",
+        "pk": 7,
+        "fields": {
+            "name_first": "Диана",
+            "name_second": "Попова",
+            "day_birth": "1990-08-25",
+            "deleted": false,
+            "course": [
+                1,
+                8
+            ]
+        }
+    },
+    {
+        "model": "authapp.customuser",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$FkSDlRVy2FraD0teD2a8ZW$1fILYCWQZruv5KIUzfNPh7L55QZ/iZ8QnJYeN6y0wVw=",
+            "last_login": "2022-09-08T15:08:11.895Z",
+            "is_superuser": false,
+            "username": "test",
+            "first_name": "t",
+            "last_name": "t",
+            "age": 134,
+            "avatar": "",
+            "email": "test@test.ru2",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-09-08T14:11:26.475Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "authapp.customuser",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$lBuVZmJ3ih8RgsH5DMkW7u$vgh0uqcdCjZzs6VMYhYY9xVQxGaeVzzxrfp2/U9xB9A=",
+            "last_login": "2022-09-09T20:57:58.593Z",
+            "is_superuser": false,
+            "username": "test2",
+            "first_name": "t2",
+            "last_name": "t2",
+            "age": 12,
+            "avatar": "",
+            "email": "test@test.ru",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-09-08T15:08:54.662Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "authapp.customuser",
+        "pk": 3,
+        "fields": {
+            "password": "!zfG5nBhJ8pqPktlZJjIeVQxvcfIFNGEK2EjMLhBZ",
+            "last_login": "2022-09-08T15:21:15.406Z",
+            "is_superuser": false,
+            "username": "thisnotdefault",
+            "first_name": "",
+            "last_name": "",
+            "age": null,
+            "avatar": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-09-08T15:21:14.904Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
