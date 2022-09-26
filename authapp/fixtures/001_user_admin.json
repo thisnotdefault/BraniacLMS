@@ -1,0 +1,22 @@
+[
+    {
+        "model": "authapp.customuser",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$EBhZ3UO9iNnz79u6nqy0OA$pkgM/n87V/i5581MufJUFCTBRpQCIRaGveupWgBaKcM=",
+            "last_login": "2022-09-26T11:26:17.430Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "age": null,
+            "avatar": "",
+            "email": "admin@admin.ru",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-09-12T15:24:51.294Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

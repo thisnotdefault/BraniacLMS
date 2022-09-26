@@ -1,7 +1,6 @@
 from django.urls import path
 from django.views.decorators.cache import cache_page
 
-
 from mainapp import views
 from mainapp.apps import MainappConfig
 
@@ -31,7 +30,6 @@ urlpatterns = [
         cache_page(60 * 5)(views.CoursesListView.as_view()),  # 5 minutes
         name="courses",
     ),
-
     path(
         "courses/<int:pk>/",
         views.CoursesDetailView.as_view(),

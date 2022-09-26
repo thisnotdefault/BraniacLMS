@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-17 20:32+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+#: authapp/forms.py:57
+msgid "Please, enter a valid age!"
+msgstr "Пожалуйста, введите корректный возраст"
+
+#: authapp/models.py:24
+msgid "username"
+msgstr "Имя пользователя"
+
+#: authapp/models.py:28
+msgid "Required. 150 characters or fewer. ASCII letters and digits only."
+msgstr "Обязательное поле. До 150 символов. Только ASCII-символы и цифры"
+
+#: authapp/models.py:32
+msgid "A user with that username already exists."
+msgstr "Пользователь с таким именем уже существует"
+
+#: authapp/models.py:35
+msgid "first name"
+msgstr "Имя"
+
+#: authapp/models.py:36
+msgid "last name"
+msgstr "Фамилия"
+
+#: authapp/models.py:42
+msgid "email address"
+msgstr "Адрес электронной почты"
+
+#: authapp/models.py:46
+msgid "A user with that email address already exists."
+msgstr "Пользователь с таким адресом электронной почты уже существует"
+
+#: authapp/models.py:50
+msgid "staff status"
+msgstr "Статус обслуживающего персонала"
+
+#: authapp/models.py:53
+msgid "Designates whether the user can log into this admin site."
+msgstr "Определяет, может ли пользователь войти на этот сайт администратора."
+
+#: authapp/models.py:57
+msgid "active"
+msgstr "Активен"
+
+#: authapp/models.py:60
+msgid ""
+"Designates whether this user should be treated as active.             "
+"Unselect this instead of deleting accounts."
+msgstr ""
+"Указывает, следует ли считать этого пользователя активным.             "
+"Отменить выбор вместо удаления учетных записей."
+
+#: authapp/models.py:64
+msgid "date joined"
+msgstr "Дата регистрации"
+
+#: authapp/models.py:73
+msgid "user"
+msgstr "Пользователь"
+
+#: authapp/models.py:74
+msgid "users"
+msgstr "Пользователи"
+
+#: authapp/views.py:24
+#, python-format
+msgid "Login success!<br>Hi, %(username)s"
+msgstr "Вход выполнен успешно!<br>Здравствуйте, %(username)s"
+
+#: authapp/views.py:44
+msgid "See you later!"
+msgstr "До скорых встреч!"
+
+#: mainapp/admin.py:24 mainapp/models.py:117
+msgid "Course"
+msgstr "Курс"
+
+#: mainapp/admin.py:29
+msgid "Mark deleted"
+msgstr "Помечен удалённым"
+
+#: mainapp/forms.py:29
+msgid "Enter your message"
+msgstr "Введите сообщение"
+
+#: mainapp/forms.py:30
+msgid "Message"
+msgstr "Сообщение"
+
+#: mainapp/models.py:35 mainapp/models.py:36
+#: templates/includes/main_menu.html:15
+msgid "News"
+msgstr "Новости"
+
+#: mainapp/models.py:120
+msgid "User"
+msgstr "Пользователь"
+
+#: mainapp/models.py:123
+msgid "No feedback"
+msgstr "Без отзыва"
+
+#: mainapp/models.py:123
+msgid "Feedback"
+msgstr "Отзыв"
+
+#: mainapp/models.py:126
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: mainapp/views.py:177
+msgid "Message sended"
+msgstr "Сообщение отправлено"
+
+#: mainapp/views.py:189
+msgid "You can send only one message per 5 minutes"
+msgstr "Вы можете послать сообщение раз в 5 минут"
+
+#: templates/admin/base_site.html:4
+msgid "Django site admin"
+msgstr "Административный раздел сайта"
+
+#: templates/includes/main_menu.html:18
+msgid "Courses"
+msgstr "Курсы"
+
+#: templates/includes/main_menu.html:26
+msgid "Profile"
+msgstr "Профиль"
+
+#: templates/includes/main_menu.html:29
+msgid "Edit profile"
+msgstr "Редактировать профиль"
+
+#: templates/includes/main_menu.html:30
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: templates/includes/main_menu.html:31
+msgid "My courses"
+msgstr "Мои курсы"
+
+#: templates/includes/main_menu.html:33
+msgid "Moderation"
+msgstr "Модерация"
+
+#: templates/includes/main_menu.html:35
+msgid "Administrative section"
+msgstr "Административный раздел"
+
+#: templates/includes/main_menu.html:36
+msgid "Logging"
+msgstr "Логирование"
+
+#: templates/includes/main_menu.html:39
+msgid "Exit"
+msgstr "Вход"
+
+#: templates/includes/main_menu.html:45
+msgid "Enter"
+msgstr "Вход"
+
+#: templates/includes/main_menu.html:49
+msgid "Contacts"
+msgstr "Контакты"
