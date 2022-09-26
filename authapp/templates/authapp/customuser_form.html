@@ -23,6 +23,11 @@
     <form method="post" class="mt-2" enctype="multipart/form-data">
       {% csrf_token %}
       {{ form|crispy }}
+      {% if user.is_authenticated %}
+      <br>
+      <a href="{% url 'authapp:change_password' %}" class="btn btn-warning btn-block">Сменить пароль</a>
+      <br>
+      {% endif %}
       <button type="submit" class="btn btn-primary btn-block">
         {% if user.is_anonymous %}
         Зарегистрироваться

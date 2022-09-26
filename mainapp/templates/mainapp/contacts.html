@@ -1,121 +1,142 @@
 {% extends 'base.html' %}
-{% load email_to_link %}
+{% load email_to_link crispy_forms_tags %}
 
 {% block content %}
 
 <p>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Наши контакты</h1>
-      <p class="lead">Обязательно свяжитесь с нами! Ваш комфорт - наша
-        забота.
-      </p>
-    </div>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Наши контакты</h1>
+    <p class="lead">Обязательно свяжитесь с нами! Ваш комфорт - наша забота.
+    </p>
   </div>
+</div>
 </p>
 <p>
-  <div class="row justify-content-around mt-n2">
-    <div class="col-sm-6 col-md-6 col-lg-4 pb-2">
-      <div class="card h-100 shadow">
-        <div class="card-body">
-          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/petropavlovskaya_krepost/146720535721/?ut
-  m_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Петропавловск
-              ая
-              крепость</a><a href="https://yandex.ru/maps/2/saint-petersburg/category/landmark_attracti
-  on/89683368508/?utm_medium=mapframe&utm_source=maps"
-              style="color:#eee;font-size:12px;position:absolute;top:14px;">Достопримеча
-              тельность
-              в
-              Санкт‐Петербурге</a><a href="https://yandex.ru/maps/2/saint-petersburg/category/museum/184105894/
-  ?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Музей
-              в
-              Санкт‐Петербурге</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUAZHcrhA" width="100%" height="300"
-              frameborder="0" allowfullscreen="true" style="position:relative; border-radius: 4px;"></iframe>
-          </div>
-          <h5 class="card-title">Санкт‐Петербург</h5>
-          <p class="card-text">
-            <ul class="list-unstyled">
-              <li>Телефон</li>
-              <li><strong>+7-999-11-11111</strong></li>
-            </ul>
-            <ul class="list-unstyled">
-              <li>Email</li>
-              <li><strong>{{ 'geeklab@spb.ru'|email_to_link }}</strong></li>
-            </ul>
-            <ul class="list-unstyled">
-              <li>Адрес</li>
-              <li><strong>территория Петропавловская крепость, 3Ж</strong>
-              </li>
-            </ul>
-          </p>
+<div class="row justify-content-around mt-n2">
+
+  <div class="col-sm-6 col-md-6 col-lg-4 pb-2">
+    <div class="card h-100 shadow">
+      <div class="card-body">
+        <div style="position:relative;overflow:hidden;"><a
+            href="https://yandex.ru/maps/org/petropavlovskaya_krepost/146720535721/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Петропавловская
+            крепость</a><a
+            href="https://yandex.ru/maps/2/saint-petersburg/category/landmark_attraction/89683368508/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Достопримечательность
+            в
+            Санкт‑Петербурге</a><a
+            href="https://yandex.ru/maps/2/saint-petersburg/category/museum/184105894/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:28px;">Музей
+            в
+            Санкт‑Петербурге</a><iframe
+            src="https://yandex.ru/map-widget/v1/-/CCUAZHcrhA" width="100%"
+            height="300" frameborder="0" allowfullscreen="true"
+            style="position:relative; border-radius: 4px;"></iframe>
         </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-6 col-lg-4 pb-2">
-      <div class="card h-100 shadow">
-        <div class="card-body">
-          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/kazanskiy_kreml/95813866834/?utm_medium=m
-  apframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Казанский
-              Кремль</a><a href="https://yandex.ru/maps/43/kazan/category/museum/184105894/?utm_mediu
-  m=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей
-              в Казани</a><a href="https://yandex.ru/maps/43/kazan/category/landmark_attraction/8968336
-  8508/?utm_medium=mapframe&utm_source=maps"
-              style="color:#eee;font-size:12px;position:absolute;top:28px;">Достопримечательность
-              в
-              Казани</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUAZHX3xB" width="100%" height="300"
-              frameborder="0" allowfullscreen="true" style="position:relative; border-radius: 4px;"></iframe>
-          </div>
-          <h5 class="card-title">Казань</h5>
-          <p class="card-text">
-            <ul class="list-unstyled">
-              <li>Телефон</li>
-              <li><strong>+7-999-22-22222</strong></li>
-            </ul>
-            <ul class="list-unstyled">
-              <li>Email</li>
-              <li><strong>{{ 'geeklab@kz.ru'|email_to_link }}</strong></li>
-            </ul>
-            <ul class="list-unstyled">
-              <li>Адрес</li>
-              <li><strong>территория Кремль, 11, Казань, Республика
-                  Татарстан, Россия</strong></li>
-            </ul>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-6 col-lg-4 pb-2">
-      <div class="card h-100 shadow">
-        <div class="card-body">
-          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/sobor_pokrova_presvyatoy_bogoroditsy_na_r
-  vu/175159255687/?utm_medium=mapframe&utm_source=maps"
-              style="color:#eee;font-size:12px;position:absolute;top:0px;">Собор
-              Покрова Пресвятой
-              Богородицы на Рву</a><a
-              href="https://yandex.ru/maps/213/moscow/category/museum/184105894/?utm_med ium=mapframe&utm_source=maps"
-              style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей
-              в Москве</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUAZHh9kD" width="100%" height="300"
-              frameborder="0" allowfullscreen="true" style="position:relative; border-radius: 4px;"></iframe>
-          </div>
-          <h5 class="card-title">Москва</h5>
-          <p class="card-text">
-            <ul class="list-unstyled">
-              <li>Телефон</li>
-              <li><strong>+7-999-33-33333</strong></li>
-            </ul>
-            <ul class="list-unstyled">
-              <li>Email</li>
-              <li><strong>{{ 'geeklab@msk.ru'|email_to_link }}</strong></li>
-            </ul>
-            <ul class="list-unstyled">
-              <li>Адрес</li>
-              <li><strong>Красная площадь, 7, Москва, Россия</strong></li>
-            </ul>
-          </p>
-        </div>
+        <h5 class="card-title">Санкт‑Петербург</h5>
+        <p class="card-text">
+        <ul class="list-unstyled">
+          <li>Телефон</li>
+          <li><strong>+7-999-11-11111</strong></li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Email</li>
+          <li><strong>{{ 'geeklab@spb.ru'|email_to_link }}</strong></li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Адрес</li>
+          <li><strong>территория Петропавловская крепость, 3Ж</strong>
+          </li>
+        </ul>
+        </p>
       </div>
     </div>
   </div>
+
+  <div class="col-sm-6 col-md-6 col-lg-4 pb-2">
+    <div class="card h-100 shadow">
+      <div class="card-body">
+        <div style="position:relative;overflow:hidden;"><a
+            href="https://yandex.ru/maps/org/kazanskiy_kreml/95813866834/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Казанский
+            Кремль</a><a
+            href="https://yandex.ru/maps/43/kazan/category/museum/184105894/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей
+            в Казани</a><a
+            href="https://yandex.ru/maps/43/kazan/category/landmark_attraction/89683368508/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:28px;">Достопримечательность
+            в
+            Казани</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUAZHX3xB"
+            width="100%" height="300" frameborder="0" allowfullscreen="true"
+            style="position:relative; border-radius: 4px;"></iframe>
+        </div>
+        <h5 class="card-title">Казань</h5>
+        <p class="card-text">
+        <ul class="list-unstyled">
+          <li>Телефон</li>
+          <li><strong>+7-999-22-22222</strong></li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Email</li>
+          <li><strong>{{ 'geeklab@kz.ru'|email_to_link }}</strong></li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Адрес</li>
+          <li><strong>территория Кремль, 11, Казань, Республика
+              Татарстан, Россия</strong></li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-6 col-lg-4 pb-2">
+    <div class="card h-100 shadow">
+      <div class="card-body">
+        <div style="position:relative;overflow:hidden;"><a
+            href="https://yandex.ru/maps/org/sobor_pokrova_presvyatoy_bogoroditsy_na_rvu/175159255687/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Собор
+            Покрова Пресвятой
+            Богородицы на Рву</a><a
+            href="https://yandex.ru/maps/213/moscow/category/museum/184105894/?utm_medium=mapframe&utm_source=maps"
+            style="color:#eee;font-size:12px;position:absolute;top:14px;">Музей
+            в Москве</a><iframe
+            src="https://yandex.ru/map-widget/v1/-/CCUAZHh9kD" width="100%"
+            height="300" frameborder="0" allowfullscreen="true"
+            style="position:relative; border-radius: 4px;"></iframe>
+        </div>
+        <h5 class="card-title">Москва</h5>
+        <p class="card-text">
+        <ul class="list-unstyled">
+          <li>Телефон</li>
+          <li><strong>+7-999-33-33333</strong></li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Email</li>
+          <li><strong>{{ 'geeklab@msk.ru'|email_to_link }}</strong></li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>Адрес</li>
+          <li><strong>Красная площадь, 7, Москва, Россия</strong></li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
 </p>
+
+{% if form %}
+<p>
+<h3>Отправить сообщение в техподдержку</h3>
+<form method="post">
+  {% csrf_token %}
+  {{ form|crispy }}
+  <button type="submit" class="btn btn-primary btn-block">Отправить</button>
+</form>
+</p>
+{% endif %}
 
 {% endblock content %}
