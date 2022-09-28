@@ -6,6 +6,7 @@ from django.urls import include, path
 from django.views.generic import RedirectView
 
 urlpatterns = [
+    path("i18n/", include("django.conf.urls.i18n")),
     path("admin/", admin.site.urls),
     path("", RedirectView.as_view(url="mainapp/")),
     path("social_auth/", include("social_django.urls", namespace="social")),
